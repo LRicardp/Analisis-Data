@@ -7,7 +7,7 @@ import numpy as np
 
 sns.set(style='dark')
 #Load dataset
-merge_df = pd.read_csv("dashboard\merge_data.csv")
+merge_df = pd.read_csv("dashboard/merge_data.csv")
 
 st.title('Bike Sharing Dashboard')
 #Visualisasi Nomor 1
